@@ -1,16 +1,56 @@
-# chatnow
+# 💬 ChatNow - Real-Time Messaging App
 
-A new Flutter project.
+A modern Flutter chat application with Firebase backend for seamless real-time communication.
 
-## Getting Started
+![ChatNow Banner](screenshots/banner.png) <!-- Add your own banner image -->
 
-This project is a starting point for a Flutter application.
+## 📱 App Preview
 
-A few resources to get you started if this is your first Flutter project:
+| Login Screen | Sign Up | Chat List | Conversation |
+|--------------|---------|-----------|--------------|
+| <img src="screenshots/1.jpeg" width="200"> | <img src="screenshots/2.jpeg" width="200"> | <img src="screenshots/3.jpeg" width="200"> | <img src="screenshots/4.jpeg" width="200"> |
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## ✨ Key Features
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### 🔐 Authentication
+- Email/Password login & signup
+- Secure password reset
+- Profile management
+- Logout functionality
+
+### 💬 Chat Features
+- Real-time messaging
+- View all registered users
+- Online/offline status
+- Message timestamps
+- Clean chat interface
+
+## 🛠️ Tech Stack
+
+**Frontend**:
+- Flutter (Cross-platform framework)
+- Provider (State management)
+- Firebase UI (Pre-built auth components)
+
+**Backend**:
+- Firebase Authentication (User management)
+- Cloud Firestore (Real-time database)
+- Firebase Storage (Optional for media)
+
+## 🚀 Installation Guide
+
+```bash
+# 1. Clone repository
+git clone https://github.com/yourusername/ChatNow.git
+cd ChatNow
+
+# 2. Install dependencies
+flutter pub get
+
+# 3. Set up Firebase:
+- Add your Firebase config files:
+  • Android: `android/app/google-services.json`
+  • iOS: `ios/Runner/GoogleService-Info.plist`
+  
+# 4. Run the app
+flutter run
