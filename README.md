@@ -2,11 +2,10 @@
 
 A modern Flutter chat application with Firebase backend for seamless real-time communication.
 
-![ChatNow Banner](screenshots/banner.png) <!-- Add your own banner image -->
 
 ## 📱 App Preview
 
-| Login Screen | Sign Up | Chat List | Conversation |
+| Sign Up Screen |Login Screen  | Users | Conversation |
 |--------------|---------|-----------|--------------|
 | <img src="screenshots/1.jpeg" width="200"> | <img src="screenshots/2.jpeg" width="200"> | <img src="screenshots/3.jpeg" width="200"> | <img src="screenshots/4.jpeg" width="200"> |
 
