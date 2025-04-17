@@ -1,0 +1,82 @@
+### Flutter ###
+# Built files
+**/build/
+**/android/app/build/
+**/ios/.symlinks/
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Flutter.podspec
+**/ios/Flutter/Generated.xcconfig
+
+# Generated files
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+.metadata
+*.dart.js
+*.js.map
+*.info.json
+
+# Firebase Secrets (Critical)
+android/app/google-services.json
+ios/Runner/GoogleService-Info.plist
+web/firebase-config.js
+lib/firebase_options.dart
+firebase-service-account.json
+*.key
+*.p12
+*.cer
+
+### Android ###
+local.properties
+gradle-wrapper.jar
+/android/key.properties
+/android/app/debug/
+/android/app/profile/
+/android/app/release/
+
+### iOS ###
+**/Podfile.lock
+**/Pods/
+**/ios/.generated/
+**/ios/Flutter/.last_build_id
+*.mode1v3
+*.mode2v3
+*.pbxuser
+*.perspectivev3
+*.xcworkspace
+xcuserdata/
+Profile/
+DerivedData/
+
+### Development ###
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+
+### System ###
+.DS_Store
+Thumbs.db
+Desktop.ini
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+[Tt]humbs.db
+
+### Environment ###
+.env
+.env.*
+.env.local
+.env.development
+.env.production
+secrets.json
+config.json
